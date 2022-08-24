@@ -1,0 +1,35 @@
+LABIRINTO GENERATOR E SOLUCIONATOR
+
+
+-- DEPENDÊNCIAS
+PIL (Python Image Library), geralmente já disponível
+na maioria das distribuições Linux
+
+
+-- COMO RODAR O PROJETO --
+Rodar com python 3.x:
+Exemplo: python3 ./labirinto.py
+
+As instruções adicionais seram mostradas pelo script.
+
+-- OBSERVAÇOES GERAIS
+
+Logo no início da execução serão gerados dois arquivos PNG na raiz do projeto:
+
+laribinto_sem_resposta.png
+	Esquema de base do labirinto, com todas as salas "fechadas"
+
+labirinto_com_resposta.png
+	Labirinto gerado anteriormente com ao menos uma solução
+
+caminho_do_rato.png
+	Caso algum rato encontre o queijo, esse arquivo será gerado mostrando
+	o caminho percorrido pelo rato.
+
+Pelas regras fornecidas para o algoritmo, raríssimos ratos conseguem encontrar
+o queijo/saída do labirinto.
+
+
+
+
+
